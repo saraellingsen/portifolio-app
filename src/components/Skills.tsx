@@ -6,13 +6,12 @@ import Event from "../assets/event-icon.png";
 const Skills = () => {
   return (
     <div id="skills" className="w-full sm:h-screen bg-[#78a7ad]">
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div>
-          <p className="text-4xl font-bold inline border-b-2 border-grey-500">
+      <div className="sm:text-left pb-8 pl-4 sticky top-20">
+      <p className="text-4xl font-bold inline border-b-2 px-20 border-grey-500">
             Skills
           </p>
-          <p className="py-4">Take a look at my experiences</p>
-        </div>
+          </div>
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="w-full grid grid-cols-1 sm:grid-cols-3 gap-5 text-center py-8">
           <div className="bg-[#edede9] shadow-md shadow-gray-500 hover:scale-110 duration-500 pt-4">
             <img

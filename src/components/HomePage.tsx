@@ -5,13 +5,13 @@ import { Link } from "react-scroll";
 
 export const HomePage = () => {
   return (
-    <div id="home" className="w-full h-screen bg-[#ebf8e9]">
-      <div className="max-w-[1000 px] mx-auto px-20 flex flex-col justify-center h-full">
+    <div id="home" className="w-full h-screen bg-[#F9E4DD]">
+     <div className="max-w-[1000 px] mx-auto px-20 flex flex-col justify-center h-full">
       <div>
-        <img src={logo} alt="Logo" style={{ width: "300px" }} />
+        <img /*src={logo} alt="Logo" style={{ width: "300px" }}*/ />
       </div>
         <p className="text-black">Hi, my name is</p>
-        <h1 className="text-4xl sm:text-7xl font-bold text-gray-700">
+        <h1 className="text-4xl sm:text-7xl font-bold text-[#91B2CA]">
           Sara Kolsrud Ellingsen
         </h1>
         <h2 className="text-3xl sm:text-6xl font-bold text-[#848794]">
@@ -29,6 +29,6 @@ export const HomePage = () => {
           </button>
         </div>
       </div>
-    </div>
+     </div>
   );
 };

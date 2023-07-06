@@ -5,61 +5,16 @@ import Event from "../assets/event-icon.png";
 
 const Skills = () => {
   return (
-    <div id="skills" className="w-full sm:h-screen bg-[#78a7ad]">
-      <div className="sm:text-left pb-8 pl-4 sticky top-20">
-      <p className="text-4xl font-bold inline border-b-2 px-20 border-grey-500">
-            Skills
-          </p>
-          </div>
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div className="w-full grid grid-cols-1 sm:grid-cols-3 gap-5 text-center py-8">
-          <div className="bg-[#edede9] shadow-md shadow-gray-500 hover:scale-110 duration-500 pt-4">
-            <img
-              className="w-10 mx-auto"
-              src={Developing}
-              alt="Developing icon"
-            />
-            <p className="my-4 font-semibold">Developing</p>
-            <p className="my-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum
-            </p>
-          </div>
-
-          <div className="bg-[#edede9] shadow-md shadow-gray-500 hover:scale-110 duration-500 pt-4">
-            <img className="w-10 mx-auto" src={Design} alt="Design icon" />
-            <p className="my-4 font-semibold">Design</p>
-            <p className="my-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum
-            </p>
-          </div>
-
-          <div className="bg-[#edede9] shadow-md shadow-gray-500 hover:scale-110 duration-500 pt-4">
-            <img className="w-10 mx-auto" src={Event} alt="Event icon" />
-            <p className="my-4 font-semibold">Event</p>
-            <p className="my-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum
-            </p>
-          </div>
-        </div>
+    <div id="skills" className="w-full h-screen bg-[#91B2CA]">
+      <div id="svg-top" className="bg-[#405463]">
+        <svg xmlns="http://www.w3.org/2000/svg" className="pt-40" viewBox="0 0 1440 320"><path fill="#91B2CA" fill-opacity="1" d="M0,224L60,197.3C120,171,240,117,360,101.3C480,85,600,107,720,122.7C840,139,960,149,1080,165.3C1200,181,1320,203,1380,213.3L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
       </div>
+          <div id="svg-blob" >
+          <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" className="z-0">
+            <path fill="#FFBC70" d="M27.5,-34.2C31.8,-23.2,28.7,-11.6,32.8,4.1C36.9,19.8,48.2,39.7,43.9,52.1C39.7,64.5,19.8,69.5,3.5,66C-12.8,62.5,-25.6,50.4,-36.2,38C-46.8,25.6,-55.3,12.8,-56.8,-1.6C-58.4,-15.9,-53.1,-31.9,-42.5,-42.9C-31.9,-53.9,-15.9,-60,-2.2,-57.8C11.6,-55.6,23.2,-45.3,27.5,-34.2Z" transform="translate(100 100)" />
+          </svg>
+              <div className="flex w-full items-center justify-center py-12 px-4 absolute top-70">hei</div>
+          </div>
     </div>
   );
 };
